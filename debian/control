@@ -1,0 +1,12 @@
+Source: lg-msm-wlan
+Section: misc
+Priority: optional
+Maintainer: Dax <LOCAL>
+Build-Depends: debhelper (>=13)
+Standards-Version: 1.0.0
+#Homepage: <insert the upstream URL, if relevant>
+
+Package: lg-msm-wlan
+Architecture: armhf
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Wlan blob modules and downstream load scripts for MSM7227A

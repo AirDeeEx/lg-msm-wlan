@@ -1,0 +1,12 @@
+[Unit]
+Description=Msm wlan loader
+Before=network.target
+After=local-fs.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/wlan_load.sh
+RemainAfterExit=true
+
+[Install]
+WantedBy=multi-user.target
