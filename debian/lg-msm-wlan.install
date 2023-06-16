@@ -1,4 +1,4 @@
 librasdioif.ko opt/msm-wlan/
 wlan_cm12.ko opt/msm-wlan/
-wlan_init.sh opt/msm-wlan/
+wlan_load.sh opt/msm-wlan/
 msm-wlan-load.service lib/systemd/system

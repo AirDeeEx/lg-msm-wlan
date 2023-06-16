@@ -5,7 +5,7 @@ After=local-fs.target
 
 [Service]
 Type=oneshot
-ExecStart=/usr/bin/wlan_load.sh
+ExecStart=/opt/msm-wlan/wlan_load.sh
 RemainAfterExit=true
 
 [Install]
