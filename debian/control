@@ -4,7 +4,6 @@ Priority: optional
 Maintainer: Dax <LOCAL>
 Build-Depends: debhelper (>=13)
 Standards-Version: 1.0.0
-#Homepage: <insert the upstream URL, if relevant>
 
 Package: lg-msm-wlan
 Architecture: armhf
